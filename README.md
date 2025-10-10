@@ -10,9 +10,9 @@
 ## ✨ Features
 
 ### 🚀 **100+ Commands Available**
-- **File & Directory Operations**: `DIR`, `CD`, `COPY`, `MOVE`, `DEL`, `MD`, `RD`, `TYPE`, `MORE`, `TREE`, `ATTRIB`
-- **System Information**: `VER`, `SYSTEMINFO`, `HOSTNAME`, `WHOAMI`, `DATE`, `TIME`
-- **Network Tools**: `PING`, `IPCONFIG`, `NETSTAT`, `NSLOOKUP`, `PORTSCAN`
+- **File & Directory Operations**: `DIR`, `CD`, `COPY`, `MOVE`, `DEL`, `MD`, `RD`, `TYPE`, `MORE`, `TREE`, `ATTRIB`.
+- **System Information**: `VER`, `SYSTEMINFO`, `HOSTNAME`, `WHOAMI`, `DATE`, `TIME`.
+- **Network Tools**: `PING`, `IPCONFIG`, `NETSTAT`, `NSLOOKUP`, `PORTSCAN`.
 - **Process Management**: `TASKLIST`, `TASKKILL` with full PID and image name support.
 - **Text Processing**: `FINDSTR`, `SORT`, `FC` (file comparison).
 - **Environment**: `SET`, `PATH`, `ECHO` with full variable management.
