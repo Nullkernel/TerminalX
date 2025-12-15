@@ -520,6 +520,12 @@ def cmd_ping(args=""):
         return
 
     host = args.strip().split()[0]  # Get first argument as host
+    
+    # Validate host to prevent command injection
+    # Allow only alphanumeric, dots, hyphens, and colons (for IPv6)
+    if not re.match(r'^[a-zA-Z0-9.\-:]+$', host):
+        print(f"{COLOR_CODES['red']}Invalid host format.{COLOR_CODES['default']}")
+        return
 
     # Default ping behavior
     count = 4
@@ -541,7 +547,7 @@ def cmd_ping(args=""):
     cmd = ['ping', param, str(count), host]
 
     try:
-        subprocess.call(cmd)
+        subprocess.run(cmd, shell=False, check=False)
     except Exception as e:
         print(f"{COLOR_CODES['red']}Ping request could not find host. {host}.{COLOR_CODES['default']}")
 
