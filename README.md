@@ -1,10 +1,5 @@
 # `TerminalX` 
 
-![TerminalX Banner](https://img.shields.io/badge/TerminalX-v1.1-red?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.6+-blue?style=for-the-badge&logo=python)
-![Platform](https://img.shields.io/badge/Platform-Cross--Platform-green?style=for-the-badge)
-![License](https://img.shields.io/badge/License-GPL_v3-blue?style=for-the-badge)
-
 **`TerminalX`** is an enhanced, cross-platform terminal emulator that brings Windows CMD functionality to any operating system while providing 100+ additional commands for professional system administration, development, and network operations.
 
 ## Features
